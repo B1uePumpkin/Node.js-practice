@@ -1,0 +1,25 @@
+.tab-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tab-list li {
+    display: inline;
+}
+
+.tab-list a {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #eee;
+    color: #000;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+/* 可以根據需要添加更多樣式 */
